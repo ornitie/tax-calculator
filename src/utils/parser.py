@@ -10,6 +10,7 @@ class Parser:
                     transaction["operation"],
                     transaction["unit-cost"],
                     transaction["quantity"],
+                    transaction.get("ticker", "NU"),
                 )
             )
 
