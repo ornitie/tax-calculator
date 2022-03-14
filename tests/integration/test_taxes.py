@@ -57,3 +57,59 @@ class TaxesTestCase(unittest.TestCase):
         actual = TaxService.calculate_taxes(input)
 
         self.assertEqual(expected, actual)
+
+    def test_case_7(self):
+        input = Parser.parse_json(self.data[6]["input"])
+        expected = self.data[6]["output"]
+
+        actual = TaxService.calculate_taxes(input)
+
+        self.assertEqual(expected, actual)
+
+    def test_case_8(self):
+        input = Parser.parse_json(self.data[7]["input"])
+        expected = self.data[7]["output"]
+
+        actual = TaxService.calculate_taxes(input)
+
+        self.assertEqual(expected, actual)
+
+    def test_case_9(self):
+        input = Parser.parse_json(self.data[8]["input"])
+        expected = self.data[8]["output"]
+
+        actual = TaxService.calculate_taxes(input)
+
+        self.assertEqual(expected, actual)
+
+    def test_case_10(self):
+        input = Parser.parse_json(self.data[9]["input"])
+        expected = self.data[9]["output"]
+
+        actual = TaxService.calculate_taxes(input)
+
+        self.assertEqual(expected, actual)
+
+    def test_case_11(self):
+        input = Parser.parse_json(self.data[10]["input"])
+        expected = self.data[10]["output"]
+
+        actual = TaxService.calculate_taxes(input)
+
+        self.assertEqual(expected, actual)
+
+    def test_case_12(self):
+        input = Parser.parse_json(self.data[11]["input"])
+        expected = self.data[11]["output"]
+
+        actual = TaxService.calculate_taxes(input)
+
+        self.assertEqual(expected, actual)
+
+    def test_case_13(self):
+        input = Parser.parse_json(self.data[12]["input"])
+        expected = self.data[12]["output"]
+
+        actual = TaxService.calculate_taxes(input)
+
+        self.assertEqual(expected, actual)
